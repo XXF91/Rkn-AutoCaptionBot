@@ -12,17 +12,17 @@ class Rkn_Bots(object):
     # Rkn client config  ( required.. 😥)
     API_ID = os.environ.get("API_ID", "29236719")
     API_HASH = os.environ.get("API_HASH", "1ccf1bd0a86af974e3210a55f662c062")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7292126565:AAHmKrD1E5SEYqKt5lu8cr-jrmP7v-roPzU")
 
     # start_pic
-    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/21a8e96b45cd6ac4d3da6.jpg")
+    RKN_PIC = os.environ.get("RKN_PIC", "https://e.top4top.io/p_3281oyw030.jpg")
 
     # wes response configuration
     BOT_UPTIME = time.time()
     PORT = int(os.environ.get("PORT", "8080"))
 
     # force subs channel ( required.. 😥)
-    FORCE_SUB = os.environ.get("FORCE_SUB", "MOVIES_WORLDZSS") 
+    FORCE_SUB = os.environ.get("FORCE_SUB", "romm207") 
     
     # database config ( required.. 😥)
     DB_NAME = os.environ.get("DB_NAME", "AutoCaption_V05_Bot")     
